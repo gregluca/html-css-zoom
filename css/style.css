@@ -30,7 +30,7 @@ img {
 .wrapper {
     width: 90%;
     margin: 0 auto;
-    height: 50vh;
+    height: calc(100vh - 190px);
     display: flex;
     flex-wrap: wrap;
 }
@@ -41,4 +41,38 @@ img {
 }
 .col {
     height: 100%;
+}
+.footer {
+    height: 60px;
+    background-color: rgb(34 34 34);
+}
+.box-footer {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 90%;
+    display: flex;
+}
+.box-center {
+    font-size: 25px;
+}
+.footer-center {
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50% , -20%);
+    color: white;
+}
+.footer-right {
+    height: 60px;
+    width: 100px;
+    background-color: #4a4a4a;
+    color: red;
+    position: absolute;
+    right: 0;
+    padding-top: 16px;
+    padding-left: 8px;
+    font-size: 15px;
 }
