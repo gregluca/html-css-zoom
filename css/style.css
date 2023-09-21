@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.header-flex {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding-bottom: 50px ;
+}
+.header {
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+    vertical-align: middle;
+    padding: 5px;
+}
+.navbar {
+    width: 100%;
+}
+.conteiner {
+    background-color: black;
+    height: 100vh;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: calc(100% / 7);
+    display: flex;
+    padding: 2px;
+}
+.col {
+    height: 100%;
+}
